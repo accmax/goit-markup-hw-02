@@ -1,0 +1,112 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 *
+/* белый #FFFFFF; */
+/* акцент #2196F3 */
+/* основной цвет фона #F5F4FA */
+/* вторичный цвет фона #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --primary-background-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+  text-align: center;
+}
+
+.list,
+.team-list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.primary-logo {
+  color: var(--title-text-color);
+}
+
+.secondary-logo {
+  color: var(--white-color);
+}
+
+.site-nav a {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts a {
+  color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  /* position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+.section-team {
+  background-color: var(--primary-background-color);
+}
+
+.team-list p {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--secondary-background-color);
+}
+
+li .address {
+  color: rgba(255, 255, 255, 0.6);
+}
